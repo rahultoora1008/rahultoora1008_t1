@@ -1,5 +1,14 @@
 {
   "name": "rahultoora1008_t1",
+  "description": "My Personal Website",
+  "author": {
+    "name": "Rahul Toora",
+    "email": "rahultoora1008@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahultoora1008/rahultoora1008_t1.git"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
