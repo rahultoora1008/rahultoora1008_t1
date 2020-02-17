@@ -18,7 +18,6 @@ html {
 	padding: 0 100px 0 100px;
 }
 
-nav ul,
 .main-section {
 	display: flex;
 	flex-wrap: wrap;
@@ -27,55 +26,15 @@ nav ul,
 
 body {
 	background-color: #0b0c10;
+	overflow-x: hidden;
 }
 
-header {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 20px 0;
-}
-
-header h1,
-header a,
 .text p {
 	color: #c5c6c7;
 }
 
-.navbar-hamburger {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-}
-.navbar-hamburger {
-	display: none;
-}
-
-.navbar-hamburger div {
-	border-radius: 1vw;
-	height: 1vh;
-	background-color: #c5c6c7;
-	margin: 2px;
-}
-.navbar-hamburger .line1 {
-	margin-top: 10px;
-	width: 40px;
-}
-.navbar-hamburger .line2 {
-	width: 30px;
-}
-.navbar-hamburger .line3 {
-	width: 20px;
-}
-
-.about h1,
-.skills h1,
-.work h1 {
+.about h1 {
 	color: #66f6f1;
-}
-
-header h1 {
-	font-size: 2.5rem;
 }
 
 li {
@@ -105,23 +64,18 @@ a {
 	color: #66f6f1;
 	font-size: 5vw;
 	cursor: context-menu;
+	letter-spacing: 5px;
 }
 
-.text span {
-	display: inline-block;
+.text h1 {
+	display: flex;
+	flex-direction: column;
 }
 
-span:hover {
-	color: #48cfad;
-	transition: all .5s;
-}
-
-span.name {
-	color: #c5c6c7;
-}
-
-span.m-left {
-	margin-left: 4px;
+.myName,
+.projects {
+	opacity: 100%;
+	color: #bebebe;
 }
 
 .text p {
@@ -170,8 +124,7 @@ span.m-left {
 	margin-top: 100px;
 }
 
-.about h1,
-.work h1 {
+.about h1 {
 	font-size: 10rem;
 	z-index: 0;
 	opacity: .1;
@@ -209,87 +162,21 @@ span.m-left {
 	transform: translateX(calc(-100% + 100px));
 }
 
-.nav-vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-@media all and (max-width: 768px) {
+@media (max-width: 786px) {
 	.container {
 		padding: 0 50px 0 50px;
 	}
-
-	header {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	nav ul {
-		padding-top: 5px;
-		display: none;
-	}
-	nav a {
-		font-size: 3vw;
-	}
-
-	.navbar-hamburger {
-		display: flex;
-	}
-
-	text {
-		margin-top: 80px;
-	}
 }
 
-@media all and (max-width: 400px) {
+@media (max-width: 375px) {
 	.container {
-		padding: 0 50px 0 50px;
+		padding: 0 20px 0 20px;
 	}
 
-	header {
-		flex-direction: row;
-		justify-content: space-between;
+	.main-section h1 {
+		font-size: 3rem;
 	}
-
-	header h1 {
-		font-size: 2rem;
-	}
-
-	nav ul {
-		padding-top: 5px;
-		display: none;
-	}
-	nav a {
-		font-size: 3vw;
-	}
-
-	.navbar-hamburger {
-		display: flex;
-	}
-
-	.navbar-hamburger div {
-		height: .3rem;
-	}
-
-	.text {
-		margin-top: 80px;
-	}
-	.text h1 {
-		font-size: 2rem;
-	}
-	.text p {
-		margin: 10px 0px;
-		font-size: .7rem;
-	}
-	.text a {
-		font-size: .6rem;
-	}
-
-	.about-info {
-		padding: 20px;
-	}
-	.about-info p {
-		font-size: 1.3rem;
+	.main-section p {
+		font-size: 5vw;
 	}
 }
