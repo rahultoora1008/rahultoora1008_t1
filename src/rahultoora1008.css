@@ -50,18 +50,22 @@ body {
 }
 
 
-hr {
-	display: block;
+hr, .hr2, .vl {
+	display: none;
 	color: white;
-	width: 100vw;
 	position: fixed;
+}
+hr {
+	width: 100vw;
 	margin-top: 60px;
 }
 
+.hr2 {
+	width: 100vw;
+	margin-top: 500px;
+}
+
 .vl{
-	display: block;
-	position: fixed;
-	color: white;
 	border-left: 1px solid white;
 	margin-left: 94vw;
   	height: 100vh;

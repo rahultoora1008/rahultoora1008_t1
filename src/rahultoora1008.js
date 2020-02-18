@@ -9,6 +9,7 @@ class App extends Component {
 		return (
 			<div>
 				<hr />
+				<hr className="hr2"/>
 				<div className="vl" />
 				<Navbar />
 				<Main />
