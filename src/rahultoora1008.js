@@ -13,7 +13,7 @@ class App extends Component {
 				<div className="vl" />
 				<Navbar />
 				<Main />
-				<About />
+				{/* <About /> */}
 			</div>
 		);
 	}
