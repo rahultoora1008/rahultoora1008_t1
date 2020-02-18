@@ -5,7 +5,6 @@ class Navbar extends Component {
 	render() {
 		return (
 			<div className="container navbar">
-				<hr />
 				<header>
 					<div className="logo">
 						<h1>

@@ -114,14 +114,14 @@ a {
 
     .myName, .devPortrait {
         display: block;
-        font-size: 18vw;
+        font-size: 15vw;
     }
 
 	.main-section h1 {
 		font-size: 10vw;
 	}
 	.main-section p {
-		font-size: 4vw;
+		font-size: 5vw;
     }
     
     .text {

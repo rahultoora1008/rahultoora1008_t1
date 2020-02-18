@@ -8,6 +8,8 @@ class App extends Component {
 	render() {
 		return (
 			<div>
+				<hr />
+				<div className="vl" />
 				<Navbar />
 				<Main />
 				<About />
